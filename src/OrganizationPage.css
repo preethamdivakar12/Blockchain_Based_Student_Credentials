@@ -1,0 +1,81 @@
+/* Organization Page Styles */
+.organization-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9966 0%, #ff5e62 100%);
+    color: white;
+    padding: 2rem;
+  }
+  
+  .verify-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .verify-form-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  
+  .certificate-result {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+  }
+  
+  .certificate-status {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .certificate-status.valid {
+    background-color: rgba(87, 255, 87, 0.2);
+    color: #ccffcc;
+  }
+  
+  .certificate-status.invalid {
+    background-color: rgba(255, 87, 87, 0.2);
+    color: #ffcccc;
+  }
+  
+  .certificate-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .detail-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    opacity: 0.8;
+  }
+  
+  .detail-value {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .detail-value.hash {
+    font-family: monospace;
+    font-size: 0.9rem;
+    word-break: break-all;
+  }
+  
+  .valid-text {
+    color: #7cffcb;
+  }
+  
+  .invalid-text {
+    color: #ff7c7c;
+  }
