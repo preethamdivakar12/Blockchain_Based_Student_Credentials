@@ -2,7 +2,37 @@
 
 A secure and transparent way to issue, verify, and manage academic credentials using blockchain technology.
 
+# ✨ Application Flow:
 
+## 📌 Government Portal:
+
+Admin connects wallet via Metamask.
+
+Issues new certificates by uploading files to IPFS and recording details on-chain.
+
+Views all certificates issued to students.
+
+Revokes certificates when necessary.
+
+## 📌 Organization Portal:
+
+Verifier connects wallet (if required) or enters student address and certificate type.
+
+Instantly verifies certificate authenticity and validity by querying blockchain data.
+
+# 📦 Tech Stack:
+
+Solidity — Smart contract language
+
+Remix IDE — Contract development and deployment
+
+IPFS — Decentralized file storage for certificates
+
+React.js — Frontend interface for interacting with smart contract
+
+Ethers.js / Web3.js — Blockchain interaction via JavaScript
+
+Metamask — Browser extension wallet for user interaction with Ethereum network
 
 # Website preview
 ![1](https://github.com/user-attachments/assets/730e2880-e782-4854-bb28-ac3d3adbb8f1)
